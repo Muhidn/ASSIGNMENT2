@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table</title>
+        <style type="text/css">
+            table,th,td{
+                border-collapse: collapse;
+                border: 3px solid silver;
+            }
+            td{
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <thread>
+                <tr>
+                    <th colspan="4">Table Heading Spanning 4 Columns</th>
+                </tr>
+                <tr>
+                    <th>Normal cell</th>
+                    <th colspan="2">Cell spanning 2 Columns</th>
+                    <th>Normal cell</th>
+                </tr>
+            </thread>
+            <tbody>
+                <tr>
+                    <td rowspan="3">cell spanning 3 row with gray (us spelling) background</td>
+                    <td>Normal Cell</td>
+                    <td>Normal Cell</td>
+                    <td>Normal cell</td>
+                </tr>
+                <tr>
+                    <td>Normal Cell</td>
+                    <td colspan="2",rowspan="2">Cell spanning 2 rows and 2 columns</td>
+                </tr>
+                <tr>
+                    <td>Normal cell</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
